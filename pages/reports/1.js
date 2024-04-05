@@ -19,7 +19,7 @@ import loadActivityData from '../../src/loadSquadronActivityData';
 const reportNumber = 1;
 const startDate = '2024-03-01';
 const endDate = '2024-03-31';
-const submissionDate = '2024-04-06';
+const submissionDate = '2024-04-05';
 
 const citations = [
   'XvT-TC 1',
@@ -40,11 +40,51 @@ const orders = [
 
 const competitions = [
 {
-  id: '',
-  name: '',
-  ends: '',
-  units: '',
-  notes: '',
+  id: '7736',
+  name: 'SWTOR Conquest 2: The search for more Conquest, Season 3',
+  ends: '2024-04-30',
+  units: 'entire TIE Corps',
+  notes: 'Points, points, points... Personal placement and organisation guild progress. Hosted by LC Gytheran.',
+  highlight: false,
+}, 
+{
+  id: '7767',
+  name: 'How to Elite Dangerously 2.0',
+  ends: '2024-06-28',
+  units: 'entire TIE Corps',
+  notes: 'As the name suggests, FAQ and gaming together. Hosted by LC Honsou & MAJ Taurus.',
+  highlight: false,
+},
+{
+  id: '7748',
+  name: 'Rho Watch Party',
+  ends: '2024-12-31',
+  units: 'Battlegroup II',
+  notes: 'Joining members of Rho to watch a movie each month. Hosted by CPT Maston Dane and Rho Squadron.',
+  highlight: false,
+},
+{
+  id: '7737',
+  name: 'PvE Ace of the TIE Corps 2024 - Season One',
+  ends: '2024-04-30',
+  units: 'entire TIE Corps',
+  notes: 'PvE, monthly and season awards available. Hosted by AD Phoenix Berkana.',
+  highlight: false,
+},
+{
+  id: '7738',
+  name: 'PvP Ace of the TIE Corps 2024 - Season One',
+  ends: '2024-04-30',
+  units: 'entire TIE Corps',
+  notes: 'PvP, monthly and season awards available. Hosted by AD Phoenix Berkana.',
+  highlight: false,
+},
+{
+  id: '7739',
+  name: 'SP Ace of the TIE Corps 2024 - Season One',
+  ends: '2024-04-30',
+  units: 'entire TIE Corps',
+  notes: 'SP, monthly and season awards available. Hosted by AD Phoenix Berkana.',
   highlight: false,
 }, 
 ];
@@ -63,8 +103,8 @@ const ACTIVITY = {
   // Honsou
   55973: {
     communication: 'Discord, E-Mail',
-    flightActivity: '',
-    otherActivity: 'TOA, LOA, Secret Order: Commander of the Guard',
+    flightActivity: 'Elite Dangerous, EABF2, Star Conflict',
+    otherActivity: 'TOA, LOA, Secret Order: Commander of the Guard.',
     notes: '',
   },
   
@@ -105,8 +145,8 @@ const ACTIVITY = {
   708: {
     communication: 'Discord',
     flightActivity: 'Squadrons, EABF2, Star Conflict',
-    otherActivity: 'Official Sin Morale Officer',
-    notes: '',
+    otherActivity: '',
+    notes: 'Official Sin Squadron Morale Officer',
   },
   
   // OBS_Obiwan
@@ -142,7 +182,7 @@ const ACTIVITY = {
     notes: '',
   },
   
-  // Lucas
+  // Lucas Lucky Finn
   56795: {
     communication: 'Discord',
     flightActivity: 'Squadrons',
@@ -188,10 +228,12 @@ export default function Report({ activityData }) {
 
       <Intro showUniform>
 		    <p>
-          <em>Fiction</em>
+          <em>Standing swiftly and retrieving his duffle bag from the racking, Honsou headed for the descending access rank of the Imperial Lambda class shuttle. He'd arrived on the ISDII Warrior to take up his latest assignment, command of the infamous Sin Squadron. Honsou knew this was his true calling. He'd been referred to as, rough round the edges, a loose cannon, and a number of other things during his time in the TIE Corps. Leading "The Unrepentant" seemed almost poetic and very appropriate. As Honsou reached the top of the ramp, he was accompanied by his confidante, the custom MSE-6-series repair (mouse) droid called "00dles." 00dles gave a series of binary chirps and beeps in a curious tone. Honsou smiled as he glanced down, "Yes, buddy, the Warrior is our home now. Also, yes, Rho Squadron is here too." There was an excited squeal and the droid raced off the ramp and across the hangar. Honsou pondered for a moment as he walked down the incline and onto the hangar deck. Taking in a deep breath, Honsou closed his eyes, the air smelled fresh for a hangar. Or at least it was lacking the damp Ewok fur smell of the ISDII Hammer and the smell of grease and oil from the aged ships of the Infiltrator Wing, on the ISDII Challenge. Honsou's eyes snapped open, 00dles had remembered the old rivalry between Tempest and Rho Squadron... Breaking into a sprint, Honsou surged across the hangar "00dles! Don't you dare!"</em>
         </p>
         <p>
           Greetings Sinners!
+          Some of you know me, some do not. My name is Honsou and I am proud to say that I am the new CMDR of Sin Squadron.
+          Short form report this time, as I work to get my admin squared away. I look forward to getting to know you all, and working with you going forwards!
         </p>
 
 
@@ -210,9 +252,9 @@ export default function Report({ activityData }) {
 
       <Closing>
 	  
-		<p>My door is always open to all of you. If you need any help, guidance or just direction for some activities then please don’t hesitate to contact me on Discord of by email. If you’re online and gaming, drop in to one of our voice channels for visibility. You never know you might end up flying with some fellow Sinners or other members of the Corps.</p>
-		<p>For Sin! </p>
-		<p>LC Honsou </p>
+		<p> My door is always open to all of you. If you need any help, guidance or just direction for some activities then please don’t hesitate to contact me on Discord or by email. If you’re online and gaming, drop in to one of our voice channels for visibility. You never know you might end up flying with some fellow Sinners or other members of the Corps.</p>
+		<p> <b>Unleash Hell!</b> </p>
+		<p> Lieutenant Colonel Honsou </p>
 
       <i><span style={{ color: "#bb0a1e" }}>"The old ones say we Sinners are descended from the Emperor himself. From the time a Sinner could fly, they were baptized in the fire of combat. 
         Taught never to retreat, never to surrender. Taught that death on the battlefield in service to the Empire was the greatest glory they could achieve."</span></i>

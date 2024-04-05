@@ -29,7 +29,7 @@ export default function CompetitionItem({
         <strong>{name}</strong>
       </Link>
 
-      { ` until ${ends} for the ${units}.`}
+      { ` until ${ends} for ${units}.`}
 
       {notes ? <p>{notes}</p> : null}
     </div>

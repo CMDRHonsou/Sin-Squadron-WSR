@@ -14,7 +14,7 @@ export default function Citations({ citations, citationsChange, children }) {
       <ul>
         {citations.map((c) => <li key={c}>{c}</li>) }
       </ul>
-      <center><h3><span style={{ color: "#1F51FF" }}>Squadron Orders</span></h3></center>
+      <center><h3><span style={{ color: "#fec701" }}>Squadron Orders</span></h3></center>
       <p>The following are citations that we are very close to obtaining. Please make these your priority when completing single player battles.</p>
       <ul>
         <li>TIE-TC 3</li>
