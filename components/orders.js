@@ -7,13 +7,12 @@ export default function Orders({ missions, children }) {
   return (
     <Card>
       <h5 style={styles.h5}>
-        News From Around The Galaxy
+        Orders
       </h5>
 
       {children}
 
       <div style={{ ...styles.p, marginTop: '1em' }}>
-       
         
       </div>
     </Card>

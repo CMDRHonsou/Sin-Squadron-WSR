@@ -13,13 +13,13 @@ export default function Intro({ children, showUniform = true }) {
 
       { showUniform && (
         <Link
-          href={`https://tc.emperorshammer.org/record.php?pin=6958&type=profile`}
+          href={`https://tc.emperorshammer.org/record.php?pin=55973&type=profile`}
           target="_blank"
           rel="noreferrer"
         >
           <img
             style={{ width: '100%', maxWidth: '190px', float: 'right' }}
-            src="https://tc.emperorshammer.org/uniform.php?id=1843"
+            src="https://tc.emperorshammer.org/uniform.php?uid=2586&size=small"
             alt={`The uniform of ${config.cmdr.name}, #${config.cmdr.pin}`}
           />
         </Link>

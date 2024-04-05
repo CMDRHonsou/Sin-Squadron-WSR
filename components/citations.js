@@ -8,7 +8,7 @@ export default function Citations({ citations, citationsChange, children }) {
   return (
     <Card>
       <h5 style={styles.h5}>
-        {`Squadron Citations: ${citations.length} (${citationsChange})`}
+        {`Squadron Citations: ${citations.length}`}
       </h5>
       <p>List of current Sin Squadron citations </p>
       <ul>

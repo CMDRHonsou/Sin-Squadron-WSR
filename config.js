@@ -14,11 +14,11 @@ export default {
     width: 512,
   },
   cmdr: {
-    intro: 'From The Desk of SkyShadow',
-    name: 'SkyShadow',
-    title: 'LC SkyShadow',
-    pin: 6958,
-    email: 'SmTaUcM@GMail.com',
+    intro: 'From The Desk of Honsou',
+    name: 'Honsou',
+    title: 'LC Honsou',
+    pin: 55973,
+    email: 'eh.honsou@GMail.com',
   },
   wc: {
     name: 'Gilbert H. Frown',
@@ -26,9 +26,9 @@ export default {
     pin: 55582,
   },
   com: {
-    name: 'Marenta',
-    title: 'AD Marenta',
-    pin: 708,
+    name: 'Fr0Zen',
+    title: 'RA Fr0Zen',
+    pin: 55977,
   },
   flights: [{
     name: 'Dark Prophecies',
