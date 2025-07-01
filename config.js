@@ -16,7 +16,7 @@ export default {
   cmdr: {
     intro: 'From The Desk of Honsou',
     name: 'Honsou',
-    title: 'LC Honsou',
+    title: 'Col Honsou',
     pin: 55973,
     email: 'eh.honsou@GMail.com',
   },
@@ -27,7 +27,7 @@ export default {
   },
   com: {
     name: 'Fr0Zen',
-    title: 'RA Fr0Zen',
+    title: 'VA Fr0Zen',
     pin: 55977,
   },
   flights: [{

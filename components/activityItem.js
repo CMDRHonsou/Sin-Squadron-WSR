@@ -45,7 +45,7 @@ export default {
         )).join(', ')}
       </dd>
     </React.Fragment>
-  ), // /^New Combat Rating achieved : (?<combatRating>.*)/,
+  ), // /^New Combat Rating achieved : (?<combatRating>\S+)/,
 
   NEW_FCHG: (fchgRatings) => (
     <React.Fragment key="NEW_FCHG">
